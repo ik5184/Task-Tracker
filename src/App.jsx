@@ -16,7 +16,7 @@ export default function App() {
   const addTask = (task) => {
     if (task.text) {
       setTasks([...tasks, task]);
-      toast.success("Task added successfully!");
+      toast.success("Task has added successfully!");
     } else{
 
       toast.error("Fill the required detail");
